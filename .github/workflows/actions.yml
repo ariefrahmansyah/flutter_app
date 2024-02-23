@@ -13,7 +13,7 @@ jobs:
         with:
           flutter-version: "3.19.1"
           channel: "stable"
-      - run: flutter build web --base-href https://ariefrahmansyah.github.io/flutter_app/
+      - run: flutter build web --base-href /flutter_app/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
